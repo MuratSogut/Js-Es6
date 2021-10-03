@@ -406,7 +406,7 @@ const { team, id } = murat;
 console.log(`team`, team)
 console.log(`id`, id)
 
-`takımı: ${team} id'si ${id}`
+//`takımı: ${team} id'si ${id}`
 
 function createMachine(name, status) {
     return {
@@ -414,4 +414,12 @@ function createMachine(name, status) {
         status
     };
 }
+
+
+var adi = "Yusuf SEZE";
+
+  for(var i of adi ) {
+    console.log(i);
+}
+
 
